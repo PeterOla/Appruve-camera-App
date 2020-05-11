@@ -133,8 +133,6 @@ public class ImageFragment extends Fragment {
         @Override
         protected void onPostExecute(String response) {
             super.onPostExecute(response);
-
-
             p.hide();
             Toast.makeText(getActivity(), "Uploaded", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(getActivity(), MainActivity.class);
